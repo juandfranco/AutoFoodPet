@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/style_background_main"
+tools:context=".MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="675dp">
+
+    <ImageButton
+        android:id="@+id/imageButtonDispensador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@drawable/main_icon"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al panel de alimentación de tu mascota"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_NuevoDispensador"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#4DB882"
+        android:drawableStart="@drawable/ic_menu_list"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="Registra Un Dispensador"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_DispensarManual"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_button_background"
+        android:drawableStart="@drawable/ic_menu_list"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="Dispensar Manualmente"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_HistoricoAlimentacion"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_button_background"
+        android:drawableStart="@drawable/ic_menu_list"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="Histórico de alimentación"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_Configuracion"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/style_button_background"
+        android:drawableStart="@drawable/ic_menu_list"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="Configurar Dispensador Automático"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_Salir"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#70301F"
+        android:drawableStart="@drawable/ic_menu_list"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:text="Cerrar Sesión"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

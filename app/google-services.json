@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "251891769057",
+    "project_id": "autofoodpet",
+    "storage_bucket": "autofoodpet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251891769057:android:d213ba58cfe5b2cbb721a0",
+        "android_client_info": {
+          "package_name": "com.jdevelops.autofoodpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251891769057-cnq1lc4f746kjelh5q7k8pi5ob80plrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4EeW28XSnxh9Km0031_5dAKr6thRcSSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251891769057-cnq1lc4f746kjelh5q7k8pi5ob80plrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
